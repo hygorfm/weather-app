@@ -4,6 +4,11 @@ Simple project that consumes OpenWeather API to obtain weather information
 
 Given a city name returns the weather for that location
 
+Project created using spring initializr tool with the following dependencies:
+-Spring Boot DevTools
+-Spring Web
+-Lombok
+
 Instructions for docker execution:
 1) run "docker build -t weather-app ." inside the project folder to create the docker image
 2) run "docker images" to see the image generated
